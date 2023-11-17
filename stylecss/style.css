@@ -50,7 +50,7 @@
     background-color: blue;
     flex-basis: 50%;
     min-height: 250px;
-    border: 1px solid blck;
+    border: 1px solid black;
 }
 .pink{
     background-color: pink;
@@ -74,10 +74,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;    
 }
 .bruce-banner{
     background-color: green;
     flex-basis: 80%;
-    min-height: 450px;
+    min-height: 450px;    
+    border: 1px solid black    
+}
+.head-footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: #23272A;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+}
+.purple{
+    background-color: blueviolet;
+    flex-basis: 28%;
+    min-height: 430px;
     border: 1px solid black
+}
+.green{
+    background-color: yellowgreen;
+    flex-basis: 13%;
+    min-height: 430px;
+    border: 1px solid black;
+}
+.lower-footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 100px;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #23272A;
+    border-top: 1px solid white  
+}
+.special{   
+    background-color: rgb(240, 252, 11);
+    flex-basis: 81%;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+.special-row{
+    background-color: pink;
+    padding: 10px;
+    border: 1px solid black;
 }
