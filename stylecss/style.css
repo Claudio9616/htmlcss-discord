@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .container-header{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #4D66F2;
+    background-color: #3161E0;
 }
 .container-nav-header{
     display: flex;
@@ -42,28 +44,27 @@ a{
     color: white;
 }
 .jumbotron{
-    background-color: #4D66F2;
-    background-image: url(../img/background2.jpeg);
-    background-size: contain;
+    background-image: url(../img/img/jumbo.png);
+    background-size: cover;
     width: 100%;
-    min-height: 390px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
 }
 h1{
     font-size: 50px;
     padding-bottom: 20px;
 }
 .spotlight{
-    font-size: 20px;
-    max-width: 650px;
-    min-height: 20px;
+    width: 840px;
+    height: 100px;
     text-align: center;
     font-size: 1.4rem;
+    line-height: 2rem;
 }
 .download{
     padding-top: 15px;
@@ -88,25 +89,21 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 .blu{
-    background-image: url(../img/pappagallo.png);
+    background-image: url(../img/img/item1.svg);
     background-size: contain;
     background-repeat: no-repeat; 
     flex-basis: 40%;
     min-height: 400px;
 }
-.pink{
-    flex-basis: 30%;
-    min-height: 400px;
-}
-.asd{
+.style-text{
     height: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .text-top{
     width: 280px;
@@ -130,20 +127,32 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.blu.wizard{
+    background-image: url(../img/img/item2.svg);
+}
+.blu.orc{
+    background-image: url(../img/img/item3.svg);
+}
+/* sistemare i padding */
 .main-footer{
     width: 100%;
     min-height: 300px;
-    background-color: grey;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
 }
-.bruce-banner{
-    background-color: green;
-    flex-basis: 80%;
-    min-height: 450px;
-    border: 1px solid black
+.blu.muffin{
+    background-image: url(../img/img/item4-big.svg);
+    background-size: contain;
+    height: 50px;
+    width: 800px;
+}
+.button-bottom{
+    font-size: 1.1rem;
+    background-color: #8EA1E1;
+    padding: 20px;
+    border-radius: 25px;
 }
 .head-footer{
     width: 100%;
