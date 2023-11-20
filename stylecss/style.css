@@ -145,7 +145,7 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 .text-footer-main{
     font-size: 2.2rem;
@@ -159,7 +159,7 @@ p{
     width: 900px;
 }
 .text-footer-main-bottom{
-    font-size: 1.5rem;
+    width: 410px;
     margin-top: -10px;
     margin-bottom: 20px;
 }
@@ -173,7 +173,7 @@ p{
 }
 .head-footer{
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     background-color: #23272A;
     display: flex;
     align-items: flex-start;
@@ -181,16 +181,47 @@ p{
     padding-top: 10px;
 }
 .purple{
-    background-color: blueviolet;
-    flex-basis: 28%;
-    min-height: 430px;
-    border: 1px solid black
+    display: flex;
+    flex-direction: column;
+    color: #7289DA;
+    flex-basis: 18%;
+    min-height: 400px;
+}
+.padding{
+    padding-top: 20px;
+}
+h3{
+    font-size: 1.5rem;
+    width: 200px;
+}
+#ita{
+    width: 20px;
+}
+.text-ita{
+    display: inline-block;
+    color: white;
+}
+.icons{
+    display: flex;
+    color: white;
+}
+.padding-single{
+    padding-right: 15px;
 }
 .green{
-    background-color: yellowgreen;
     flex-basis: 13%;
     min-height: 430px;
-    border: 1px solid black;
+}
+ul{
+    list-style-type: none;
+}
+.color-single{
+    color: #7289DA;
+}
+li{
+    padding-top: 10px;
+    color: white;
+    font-size: 1.1rem;
 }
 .lower-footer{
     display: flex;
@@ -198,21 +229,27 @@ p{
     align-items: flex-end;
     width: 100%;
     min-height: 100px;
+    padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #23272A;
-    border-top: 1px solid white
 }
 .special{
-    background-color: rgb(240, 252, 11);
     flex-basis: 81%;
     min-height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid #8EA1E1;
 }
 .special-row{
-    background-color: pink;
     padding: 10px;
-    border: 1px solid black;
+    margin-top: 30px;
+    border: none;
+}
+.special-row-button{
+    background-color: #8EA1E1;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    border: none;
 }
