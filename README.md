@@ -1,20 +1,15 @@
 Ciao Ragazzi,
-Esercizio di oggi: Struttura Discord
-cartella/repo htmlcss-struttura-discord
+Esercizio di oggi: Discord
+cartella/repo: htmlcss-discord
+Copiamo il lavoro di ieri in un nuovo repo, attenzione, non duplicate l'intera cartella, altrimenti copierete anche le impostazioni di git!
+Nel repo nuovo incolliamo solo index.html, css/style.css e cartella img/ con le immagini.
 Descrizione
-Riproduzione di un layout intero: Discord
-Partiamo dal realizzare la struttura base del nostro tema solo con i blocchi colorati senza inserire i veri testi, img etc. o pensare al dettaglio.
-Partiamo sempre dall'individuare il layout generale e poi iniziamo dall'alto verso il basso, non passiamo ad una sezione successiva se la precedente non funziona.
-In linea di massima, consideriamo meglio un esercizio non completo di tutte le sezioni ma che presentino le sezioni fatte in maniera pulita, ordinata e corretta, che un esecizio che arrivi fino al footer ma scritto male, con poca centralizzazione e organizzazione del codice.
-Per questo primo layout, vi diamo noi un'idea dei blocchi che possiamo potenzialmente intravedere sul sito. Da domani in poi, toccherà a voi fare l'analisi dei layout sugli esercizi proposti!
-Consigli:
-Utilizziamo la console per vedere cosa stiamo facendo.
-Aiutiamoci coi border ed il background per vedere effettivamente i nostri blocchi
-Non dimentchiamo le altezze, altrimenti potremmo non vedere nulla. E' consigliabile utilizzare la min-height e ricordarsi che, in caso di presenza di flex, align-items: stretch è il valore di default.
-Consegna
-Da oggi e per il resto del corso vi chiediamo di effettuare questi primi 3 commit
-first commit-> quello di apertura quando collegate la repo
-scaffolding -> in cui mettete l'html col boilerplate e i vari file (immagini, css ecc) anche se vuoi
-added readme -> in cui create un file README.md nel livello principale della cartella (insomma accanto a index), ci inserite dentro la traccia che vi passo in comunicazioni (questa).
-Per chi fosse curioso di imparare markdown, trovate il mio tutorial qui
-Buon lavoro e buon weekend!
+Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.
+font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+Consigli
+Lavoriamo sezione per sezione assicurandoci di completarla al meglio prima di passare alla successiva.
+Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi manutenibile.
+Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po’ con unità relative senza però crearci nuove difficoltà, tanto meglio.
+Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
+Ricordate che potrebbe essere necessario un ritocco rispetto a quanto strutturato con la versione a blocchettoni! :occhiolino:
+Per le icone potete utilizzare FontAwesome, importandolo via CDNJS
